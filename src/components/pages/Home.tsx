@@ -2,9 +2,9 @@ import React, { useRef } from 'react';
 import styles from "./Home.module.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
-import Card from '../layout/Card';
-import GameUpdates from '../layout/GameUpdates';
-import Carousel from "../layout/Carousel";
+import Card from '../Itens/Card';
+import GameUpdates from '../Itens/GameUpdates';
+import Carousel from "../Itens/Carousel";
 
 
 function Home() {
