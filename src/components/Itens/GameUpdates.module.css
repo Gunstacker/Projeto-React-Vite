@@ -1,14 +1,14 @@
 
 
 .card {
-  background-color: rgba(0, 0, 0, 0.75); /* Ajustei a opacidade para um efeito de fundo mais escuro */
+  background-color: rgba(0, 0, 0, 0.75); 
   color: white;
   border: 1px solid #ccc;
   border-radius: 5px;
 }
 
 .cardHeader {
-  background-color: #31006546; /* Cor de fundo do cabeçalho da card */
+  background-color: #31006546; 
 }
 
 .title {
@@ -18,29 +18,29 @@
 }
 
 .infoSection {
-  margin-top: 20px; /* Espaço entre o cabeçalho e o conteúdo quando expandido */
+  margin-top: 20px; 
 }
 
 .cardBody {
-  padding: 20px; /* Espaçamento interno do corpo da card */
+  padding: 20px; 
 }
 
 .patchTitle {
-  color: #5a0084; /* Cor do título dos patch notes */
+  color: #5a0084; 
   font-size: 24px;
   padding-bottom: 30px;
 }
 
 .updateList {
-  list-style-type: disc; /* Estilo da lista de atualizações */
-  margin-left: 20px; /* Espaçamento à esquerda para a lista de atualizações */
+  list-style-type: disc;
+  margin-left: 20px; 
 }
 
 .updateItem {
-  margin-bottom: 5px; /* Espaçamento entre os itens da lista de atualizações */
+  margin-bottom: 5px; 
 }
 
 .image {
-  width: 400px; /* Para garantir que a imagem não ultrapasse a largura da card */
-  height: 200px; /* Para manter a proporção da imagem */
+  width: 400px; 
+  height: 200px;
 }

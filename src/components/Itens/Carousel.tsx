@@ -5,7 +5,7 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
 const Carousel = ({ images, titles, descriptions }) => {
   useEffect(() => {
-    // Inicialize o Bootstrap Carousel aqui após o componente ser montado
+    // Inicializa o Bootstrap Carousel
     const carousel = document.getElementById('carouselExample');
     const bsCarousel = new window.bootstrap.Carousel(carousel);
   }, []); // O array vazio [] assegura que isso seja executado apenas uma vez após a montagem

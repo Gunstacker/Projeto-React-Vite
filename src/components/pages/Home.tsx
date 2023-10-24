@@ -8,7 +8,7 @@ import Carousel from "../Itens/Carousel";
 
 
 function Home() {
-  //criado para que eu possa chamar o carousels
+  //criado para que eu possa chamar o carousels e passar seus parâmetros
   const carouselImages = [
     'https://pbs.twimg.com/media/FJP5Tn-XwAEHu3h.jpg:large',
     'https://assetsio.reedpopcdn.com/dark-souls-3-metroidvania.png?width=1600&height=900&fit=crop&quality=100&format=png&enable=upscale&auto=webp',
@@ -89,9 +89,9 @@ function Home() {
         {/* Fim dos cards */}
 
 
-{/* Inicio do carousel */}
-<Carousel images={carouselImages} titles={carouselTitles} descriptions={carouselDescriptions} />
-{/* Fim do carousel */}
+        {/* Inicio do carousel */}
+          <Carousel images={carouselImages} titles={carouselTitles} descriptions={carouselDescriptions} />
+        {/* Fim do carousel */}
 
 
 
