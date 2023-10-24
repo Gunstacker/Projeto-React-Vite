@@ -12,7 +12,7 @@ function Home() {
   const carouselImages = [
     'https://pbs.twimg.com/media/FJP5Tn-XwAEHu3h.jpg:large',
     'https://assetsio.reedpopcdn.com/dark-souls-3-metroidvania.png?width=1600&height=900&fit=crop&quality=100&format=png&enable=upscale&auto=webp',
-    'https://w0.peakpx.com/wallpaper/429/177/HD-wallpaper-waifu2x-shopping-pixel-art-anime-games-stairs-scenery-hoodie-anime.jpg'
+    'https://images3.alphacoders.com/129/thumb-1920-1298880.png'
     
   ];
 
@@ -25,7 +25,7 @@ function Home() {
   const carouselDescriptions = [
     'Desenvolvedores estão a procura de pessoas que possam ajudar a modelar por completo um novo sekiro em pixel art, noticias prometem ser inovador!',
     'Quem diria o jogo um souls like de renome sendo portabilizado para um mundo 2D!',
-    'Em BREVE o site tera portabilidade para cadastro, venda e compras de projetos 2D e 3D,'
+    'Em BREVE o site tera portabilidade para cadastro, venda e compras de projetos 2D e 3D!'
   ];
   
 
@@ -105,6 +105,9 @@ function Home() {
             'Novos Combos;',
             'Quests Diárias atualizadas;',
             'Sistema de recompensa melhor ranking.',
+            'Novos Inimigos',
+            'Novos níveis Desafiadores',
+            'Personalização da Roupa'
           ]}
           imageUrl="https://e1.pxfuel.com/desktop-wallpaper/90/140/desktop-wallpaper-1680x1050-cool-art-spiderman-1680x1050-resolution-cool-style.jpg"
         />
@@ -119,6 +122,9 @@ function Home() {
             'Novos side-quests espalhadas;',
             'Quests Diárias atualizadas;',
             'Sistema de recompensa melhor ranking.',
+            'Novas fases',
+            'Novos inimigos da saga',
+            'Mais Itens consúmiveis'
           ]}
           imageUrl="https://e1.pxfuel.com/desktop-wallpaper/473/884/desktop-wallpaper-super-mario-pixel-art-gaming-super-mario-pixel-background.jpg"
         />
@@ -133,6 +139,9 @@ function Home() {
             'Novo ratting de catch para suas evoluções;',
             'Chances de spawnar shynies;',
             'Drop de gengaritte.',
+            'Novas Fases de Halloween',
+            'Mini Game adicionado: Caça ao fantasma',
+            'Chance de evolução para Mega Gengar'
           ]}
           imageUrl="https://i.pinimg.com/originals/a3/45/41/a345413d6c2e226edf2fc4039febf549.png"
         />
