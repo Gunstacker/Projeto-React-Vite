@@ -1,0 +1,39 @@
+.footer{
+    margin: 100px 0px 0px 0px;
+    background-color: #18003ca8;
+    color: #fff;
+    padding: 2.8em;
+    text-align: center;
+}
+
+.lista_social {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.lista_social li {
+    margin: 0 1em;
+}
+
+.lista_social li:hover {
+    color: rgba(94, 0, 161, 0.785);
+}
+
+.lista_social png {
+    font-size: 1.5em;
+    cursor: pointer;
+}
+.lista_social svg {
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+.copyright {
+    margin-top: 1.5em;
+}
+
+.copyright span {
+    font-weight: bold;
+    color: rgba(94, 0, 161, 0.785);
+}

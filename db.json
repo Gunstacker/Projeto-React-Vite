@@ -1,0 +1,32 @@
+{
+  "usuarios": [],
+  "restaurante": [
+    {
+      "total": 0,
+      "valores": [],
+      "id": 1
+    }
+  ],
+  "tipos": [
+    {
+      "id": 1,
+      "name": "3D Model"
+    },
+    {
+      "id": 2,
+      "name": "2D Model"
+    },
+    {
+      "id": 3,
+      "name": "Assett Pack"
+    },
+    {
+      "id": 4,
+      "name": "Animation Pack"
+    },
+    {
+      "id": 5,
+      "name": "Full Package"
+    }
+  ]
+}

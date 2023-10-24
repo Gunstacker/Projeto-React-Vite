@@ -1,0 +1,22 @@
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+
+html,
+body,
+#root {
+  background-image: url('https://i.pinimg.com/originals/bc/87/e5/bc87e5124f8d2cfe810d403adc96ad01.gif'); /* Substitua pelo caminho da sua imagem de fundo */
+    background-color: rgba(9, 0, 23, 0.493);
+    background-blend-mode: darken;
+    
+}
+
+html{
+  scroll-behavior: smooth;
+}

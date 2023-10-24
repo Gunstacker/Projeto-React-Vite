@@ -1,0 +1,46 @@
+.card {
+    background-color: rgba(0, 0, 0, 0.644);
+    color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 30px; 
+    align-items: center;
+    margin: 100px 0px;
+  }
+
+.cardImage{
+    height: 180px;
+}
+  
+  .cardTitle {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+  
+  .card-text {
+    font-size: 1rem;
+    color: #333;
+    padding: 20px;
+  }
+
+  .cardButton {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    width: fit-content;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    margin-top: 10px;
+    transition: 0.3s ease-in;
+  }
+  
+  .cardButton:hover {
+    background-color: #0056b3;
+  }
+
+
+

@@ -1,0 +1,19 @@
+.btnRegister{
+    padding: 20px 0px;
+}
+
+.register{
+    color: rgb(123, 16, 245);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.card {
+    background-color: rgba(0, 0, 0, 0.644);
+    color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 30px; 
+    align-items: center;
+    box-shadow: 10px 10px 10px rgba(128, 0, 188, 0.2);
+}
