@@ -14,14 +14,14 @@
     <h2>Executando o Projeto</h2>
     <p>Para executar o projeto localmente, siga estas etapas:</p>
     <ol>
-        <h5>Antes de tudo o projeto utiliza o VITE para rodar </h5>
-        <li>Clone este repositório: <code>git clone https://github.com/seu-usuario/seu-projeto.git</code></li>
+        <h5>Antes de tudo o projeto utilize o VITE para rodar </h5>
+        <li>Clone este repositório: <code>git clone https://github.com/Gunstacker/Projeto-React-Native</code></li>
         <li>Navegue até o diretório do projeto: <code>cd seu-projeto</code></li>
         <li>Instale as dependências: <code>npm install</code></li>
         <li>Execute o projeto: <code>npm run dev</code></li>
     </ol>
     <h2>Contribuindo</h2>
-    <p>Estamos abertos a contribuições! Sinta-se à vontade para enviar problemas (issues) e pull requests com melhorias.</p>
+    <p>Estou aberto a contribuições! Sinta-se à vontade para enviar problemas (issues) e pull requests com melhorias.</p>
     <h2>Contato</h2>
     <p>Para mais informações ou dúvidas, entre em contato conosco em:</p>
     <ul>
