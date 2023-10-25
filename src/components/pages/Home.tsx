@@ -5,6 +5,7 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import Card from '../Itens/Card';
 import GameUpdates from '../Itens/GameUpdates';
 import Carousel from "../Itens/Carousel";
+import ResponsiveComponent from './ResponsiveComponent';
 
 
 function Home() {
@@ -23,14 +24,14 @@ function Home() {
   ];
 
   const carouselDescriptions = [
-    'Desenvolvedores estão a procura de pessoas que possam ajudar a modelar por completo um novo sekiro em pixel art, noticias prometem ser inovador!',
+    'Olha só o melhor jogo da história da humanidade em Pixel Art em desenvolvimento!',
     'Quem diria o jogo um souls like de renome sendo portabilizado para um mundo 2D!',
     'Em BREVE o site tera portabilidade para cadastro, venda e compras de projetos 2D e 3D!'
   ];
   
 
     return (
-      <div>
+      <div className={`container  ${styles['container']}`}>
 
 
         {/* Início do cabeçalho */}
