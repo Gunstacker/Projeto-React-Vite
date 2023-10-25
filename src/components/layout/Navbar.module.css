@@ -3,7 +3,14 @@
     justify-content: space-between;
     background-color: #1b004282;
     padding: 1em;
+    width: 100%;
 }
+
+
+
+  .container{
+    bottom: 1000px;
+  }
 
 .logoImg{ 
     width: 60px;
@@ -16,6 +23,7 @@
     display: flex;
     list-style: none;
     align-items: center;
+    justify-content: center;
 }
 
 .item {
@@ -29,3 +37,16 @@
 .item a:hover{
     color: rgba(127, 35, 192, 0.945);
 }
+
+
+@media (max-width: 768px) {
+
+    .list {
+        display: flex;
+        list-style: none;
+        align-items: center;
+        justify-content: center;
+        padding-left: 6em;
+    }
+  }
+

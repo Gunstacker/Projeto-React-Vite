@@ -5,7 +5,7 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import Card from '../Itens/Card';
 import GameUpdates from '../Itens/GameUpdates';
 import Carousel from "../Itens/Carousel";
-import ResponsiveComponent from './ResponsiveComponent';
+
 
 
 function Home() {
@@ -24,10 +24,13 @@ function Home() {
   ];
 
   const carouselDescriptions = [
-    'Olha só o melhor jogo da história da humanidade em Pixel Art em desenvolvimento!',
+    'Olha só o melhor jogo da história da humanidade em Pixel Art esta desenvolvimento!',
     'Quem diria o jogo um souls like de renome sendo portabilizado para um mundo 2D!',
     'Em BREVE o site tera portabilidade para cadastro, venda e compras de projetos 2D e 3D!'
   ];
+
+   // Lógica para ocultar ou exibir o Carousel com base na largura da tela
+   
   
 
     return (
@@ -91,7 +94,9 @@ function Home() {
 
 
         {/* Inicio do carousel */}
-          <Carousel images={carouselImages} titles={carouselTitles} descriptions={carouselDescriptions} />
+          <div className="d-none d-md-block">
+            <Carousel images={carouselImages} titles={carouselTitles} descriptions={carouselDescriptions} />
+          </div>
         {/* Fim do carousel */}
 
 

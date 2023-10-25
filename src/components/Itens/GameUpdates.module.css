@@ -45,3 +45,10 @@
   width: 400px; 
   height: 200px;
 }
+
+@media (max-width: 768px) {
+  .image {
+    max-width: 100%; /* Define a largura máxima da imagem como 100% da largura do contêiner pai */
+    height: auto; /* Mantém a proporção original da imagem e ajusta automaticamente a altura */
+  }
+}

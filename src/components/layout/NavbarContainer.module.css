@@ -1,0 +1,5 @@
+.container {
+    max-width: 100%; /* Define a largura máxima para 100% da largura disponível */
+    padding-right: 100px; /* Adiciona algum espaço de preenchimento nas laterais para evitar que o conteúdo grude nas bordas da tela */
+    box-sizing: border-box; /* Garante que o preenchimento não afete a largura máxima */
+  }

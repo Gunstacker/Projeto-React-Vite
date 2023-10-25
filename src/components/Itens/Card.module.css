@@ -42,5 +42,37 @@
     background-color: #0056b3;
   }
 
-
+  @media (max-width: 768px) {
+    .card {
+      padding: 20px; /* Reduza o preenchimento em telas menores */
+      margin: 20px 0px; /* Reduza a margem em telas menores */
+    }
+  
+    .cardImage {
+      height: auto; /* Permita que a altura da imagem se ajuste automaticamente */
+      max-width: 100%; /* Faça a imagem se ajustar à largura do cartão */
+    }
+  
+    .cardTitle {
+      font-size: 1.2rem; /* Reduza o tamanho da fonte em telas menores */
+      margin-bottom: 8px; /* Reduza a margem inferior */
+    }
+  
+    .card-text {
+      font-size: 1rem; /* Reduza o tamanho da fonte em telas menores */
+      padding: 10px 0px; /* Reduza o preenchimento vertical */
+    }
+  
+    .cardButton {
+      font-size: 1rem;
+      margin-top: 10px;
+    }
+  }
+  
+  
+  
+  
+  
+  
+  
 
